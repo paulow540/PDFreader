@@ -1,5 +1,5 @@
 import pyttsx3
-from pPDF import my_pdf
+from ppdf import my_pdf
 
 word = my_pdf()
 
