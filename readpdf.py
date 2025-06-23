@@ -3,9 +3,8 @@
 from PyPDF2 import PdfReader
 
 # Define path of the PDF file
-# 
 
-pdf_file_name = 'Resume.*'
+pdf_file_name = 'what_is_dataanalysis.pdf'
 
 
 def my_pdf():
