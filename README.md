@@ -43,7 +43,7 @@ This is a simple and powerful web app built with **Python** and **Streamlit** th
 git clone [https://github.com/paulow540/PDFreader.git]
 cd PDFreader
 pip install -r requirements.txt
-streamlit run text_to_speech.py
+streamlit run demo.py
 ```
 ## 🙋‍♂️ Author
 Developed by Opakunbi Paul
