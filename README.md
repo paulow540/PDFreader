@@ -15,7 +15,6 @@ This is a simple and powerful web app built with **Python** and **Streamlit** th
 ![PDF to Audio Demo](demo.gif)  
 > 🎧 [Click to listen to sample audio](https://github.com/paulow540/PDFreader/blob/main/python_example_test.wav)
 
-
 ---
 
 ## 🛠️ Features
