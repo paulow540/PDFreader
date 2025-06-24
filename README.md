@@ -13,7 +13,7 @@ This is a simple and powerful web app built with **Python** and **Streamlit** th
 ## 🚀 Demo
 
 ![PDF to Audio Demo](demo.gif)  
-> 🎧 [Click to listen to sample audio](https://github.com/paulow540/PDFreader/blob/main/output_audio.wav)
+> 🎧 [Click to listen to sample audio]([https://github.com/paulow540/PDFreader/blob/main/output_audio.wav](https://github.com/paulow540/PDFreader/blob/main/python_example_test.wav))
 
 
 ---
