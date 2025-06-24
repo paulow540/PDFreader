@@ -6,7 +6,8 @@ from readpdf import my_pdf
 word = my_pdf()
 
 engine = pyttsx3.init()
-# # engine.say('Sally sells seashells by the seashore.')
+
+# save the audio as a wav file
 engine.save_to_file(word, 'output_audio.wav')
 
 engine.runAndWait()
