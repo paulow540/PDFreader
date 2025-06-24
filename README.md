@@ -30,8 +30,9 @@ This is a simple and powerful web app built with **Python** and **Streamlit** th
 
 ## 📦 Tech Stack
 
-- **Streamlit** – Web app interface  
-- **PyMuPDF / fitz** – PDF text extraction  
+- **Streamlit** – Web app interface
+- **fpdf** - Create PDF document
+- **PyPDF2** – PDF text extraction  
 - **pyttsx3** – Text-to-speech engine  
 - **Python Standard Libraries**
 
@@ -40,7 +41,11 @@ This is a simple and powerful web app built with **Python** and **Streamlit** th
 ## 🖥️ Installation
 
 ```bash
-git clone https://github.com/yourusername/pdf-to-audio-app.git
-cd pdf-to-audio-app
+git clone [https://github.com/paulow540/PDFreader.git]
+cd PDFreader
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run text_to_speech.py
+```
+## 🙋‍♂️ Author
+Developed by Opakunbi Paul
+Feel free to connect or give a ⭐ if you like the project!
