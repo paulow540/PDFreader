@@ -36,5 +36,6 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"❌ Failed to process PDF: {e}")
+        
 else:
     st.info("Please upload a PDF file to get started.")
