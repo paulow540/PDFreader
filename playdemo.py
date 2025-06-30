@@ -24,11 +24,11 @@ if uploaded_file:
     doc = fitz.open(stream=pdf_bytes, filetype="pdf")
 
     # Page selector
-    page_numbers = list(range(len(doc)))
+    page_numbers = list(range(1,len(doc)))
     selected_page = st.selectbox("Select Page to Read", page_numbers)
     page_text = doc[selected_page].get_text()
 
-    st.subheader(f"📄 Extracted Text from Page {selected_page + 1}")
+    st.subheader(f"📄 Extracted Text from Page {selected_page}")
     st.text_area("PDF Text", page_text, height=300)
 
     # Text summarization
